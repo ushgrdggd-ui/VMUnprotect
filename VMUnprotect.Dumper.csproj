@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net472</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <ApplicationIcon>vmup.ico</ApplicationIcon>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="vmup.ico" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AsmResolver" Version="4.8.0" />
+      <PackageReference Include="AsmResolver.DotNet" Version="4.8.0" />
+      <PackageReference Include="AsmResolver.PE" Version="4.8.0" />
+      <PackageReference Include="Sharprompt" Version="2.4.4" />
+    </ItemGroup>
+
+</Project>
